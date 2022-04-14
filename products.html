@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="img/myIcon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>ZEXT |WEBSITE| made by using HTML5, CSS3, Javascript products section</title>
   </head>
   <body>
@@ -22,22 +23,22 @@
         <ul class="navbar_menu">
             <li class="navbar_item">
                 <a href="index.html" class="navbar_links">
-                    Home
+                  Buy
                 </a>
             </li>
             <li class="navbar_item">
                 <a href="about.html" class="navbar_links">
-                    About
+                  Trade
                 </a>
             </li>
             <li class="navbar_item">
                 <a href="products.html" class="navbar_links">
-                    Products
+                  Market
                 </a>
             </li>
             <li class="navbar_btn">
                 <a href="sign_up.html" class="btn">
-                    Sign Up
+                  Register
                 </a>
             </li>
         </ul>
@@ -48,14 +49,97 @@
     <div class="main">
       <div class="main_container">
         <div class="main_content">
-          <h1>Get Everything</h1>
-          <h2>Latest and Trending</h2>
-          <p>On Amazon</p>
-          <button class="main_btn"><a href="https://www.amazon.in/s?k=products&crid=18Q4MWK3Y1XTC&sprefix=products%2Caps%2C244&ref=nb_sb_noss_1" target="_blank">Buy Now</a></button>
+          <h1>Market Trend</h1>
+          <h2>Fund Your Account</h2>
+          <p>Verify Your Identity and Start Trading</p>
+          <button class="main_btn"><a href="index.html">Buy Now</a></button>
         </div>
-        <div class="main_img_container pos">
-          <!-- <img src="img/undraw_product_iteration_kjok.svg" alt="Image" id="main_img" /> -->
-          <iframe src="https://giphy.com/embed/JHsos369mkc0M" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/JHsos369mkc0M"></a></p>
+        <div class="main_img_container crypto">
+          <div class="coin">
+            <img src="img/bitcoin.png" alt="bitcoin">
+          <div>
+            <h3>₹<span id="bitcoin"></span></h3>
+            <p>Bitcoin</p>
+          </div>
+          </div>
+          <div class="coin">
+            <img src="img/ethereum.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="ethereum"></span></h3>
+              <p>Ethereum</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/litecoin.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="litecoin"></span></h3>
+              <p>Litecoin</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/solana.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="solana"></span></h3>
+              <p>Solana</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/zcash.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="zcash"></span></h3>
+              <p>Zcash</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/dash.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="das"></span></h3>
+              <p>Dash</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/cosmos.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="cosmos"></span></h3>
+              <p>Cosmos</p>
+            </div>
+          </div>    
+          <div class="coin">
+            <img src="img/uniswap.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="uniswap"></span></h3>
+              <p>Uniswap</p>
+            </div>
+          </div> 
+          <div class="coin">
+            <img src="img/tether.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="tether"></span></h3>
+              <p>Tether</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/cardano.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="cardano"></span></h3>
+              <p>Cardano</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/iota.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="iot"></span></h3>
+              <p>Iota</p>
+            </div>
+          </div>
+          <div class="coin">
+            <img src="img/dogecoin.png" alt="bitcoin">
+            <div>
+              <h3>₹<span id="dogecoin"></span></h3>
+              <p>Dogecoin</p>
+            </div>
+          </div>
+           
           
         </div>
       </div>
@@ -64,18 +148,18 @@
     <!-- Service Section -->
 
     <div class="services">
-      <h1>If It Works¯\_༼ ᴼل͜ᴼ ༽_/¯<span class="name">Don't Touch It</span></h1>
-      <p class="para">The greatest glory in living lies not in never falling, but in rising every time we fall.The way to get started is to quit talking and begin doing.Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.</p>
+      <h1>Personalised Access <span class="name">Control</span></h1>
+      <p class="para">Get 24/7 chat support with our friendly customer service agents at your service. View FAQs for detailed instructions on specific features. Stay up to date with the latest stories and commentary.</p>
       <div class="services_container">
         <div class="services_card product">
-          <h2>Products</h2>
-          <p>Checkout On Amazon</p>
-          <button><a href="https://www.amazon.in/s?k=products&crid=FWS72JGI1JZT&sprefix=product%2Caps%2C204&ref=nb_sb_noss_1" target="_blank" class="know">Buy Now</a></button>
+          <h2>Top Crypto</h2>
+          <p>Bitcoin, Ethereum, Tether</p>
+          <button><a href="#" class="know">Know More</a></button>
         </div>
         <div class="services_card product">
-          <h2>Ratings</h2>
+          <h2>Invest</h2>
           <p><span class="typing"></span></p>
-          <button><a href="https://www.amazon.in/dp/B09N3ZNHTY/ref=s9_acsd_al_bw_c2_x_0_i?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-4&pf_rd_r=8FB1T9DK8HCKN9ZMW1BA&pf_rd_t=101&pf_rd_p=92b0dc21-f068-4422-8ae8-1865c419971b&pf_rd_i=976419031&th=1" class="know" target="_blank">Review</a></button>
+          <button><a href="sign_up.html" class="know" target="_blank">Invest</a></button>
         </div>
       </div>
     </div>
@@ -161,7 +245,7 @@
   
   <script>
     var typing = new Typed(".typing", {
-    strings: [" ", "⭐⭐⭐⭐⭐"],
+    strings: [" ", "Build The Future"],
     typeSpeed: 150,
     backSpeed: 100,
     showCursor: false,
