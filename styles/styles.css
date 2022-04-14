@@ -299,7 +299,7 @@ body {
 }
 
 .main_content p {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-white);
@@ -351,8 +351,8 @@ body {
 }
 
 #main_img {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Section Mobile Responsive */
@@ -380,7 +380,7 @@ body {
 
   .main_content h2 {
     font-size: 2.2rem;
-    margin: 2rem 0;
+    margin: 3rem 0;
 
   }
 
@@ -416,25 +416,7 @@ body {
     margin: 2rem 0.1rem 0 0;
   }
 
-  .pos iframe{
-    width: 16rem; 
-    height: 16rem;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    /* margin-bottom: 10rem;
-    margin-right: 0.5rem; */
-  }
-
 }
-
-@media screen and (max-width: 500px){
-  .pos iframe{
-    width: 16.5rem;
-    height: 16.5rem;
-  }
-}
-
 
 
 .typing{
@@ -524,7 +506,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
       ),
-    url('/img/khalid3.avif');
+    url('/img/buy_crypto.avif');
   background-size: cover;
   position: relative;
   color: var(--color-white);
@@ -537,7 +519,7 @@ body {
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
         ),
-      url('/img/bg2.avif');
+      url('/img/earning.avif');
 }
 
 .services_card button{
@@ -555,7 +537,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
       ),
-    url('/img/team2.avif');
+    url('/img/portfolio-section.png');
   background-size: cover;
   position: relative;
   color: var(--color-white);
@@ -567,7 +549,7 @@ body {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
     ),
-  url('/img/travel2.avif');
+  url('/img/foreground-image-dark.png');
 }
 
 .about-img button a{
@@ -575,6 +557,29 @@ body {
   color: var(--color-white);
 }
 
+
+.crypto{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40rem;
+  font-size: 14px;
+  color: var(--color-white);
+  box-shadow: 80px 5px 80px 80px var(--color-btnHover);
+  border-radius: 30px;
+}
+
+.crypto img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.coin{
+  margin: 15px 0;
+}
+
+.coin p{
+  color: #f2a900;
+}
 
 .product{
   margin: 1rem;
@@ -586,7 +591,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
       ),
-    url('/img/product.avif');
+    url('/img/crypto.avif');
   background-size: cover;
   position: relative;
   color: var(--color-white);
@@ -598,7 +603,7 @@ body {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
     ),
-  url('/img/rating.avif');
+  url('/img/invest.avif');
 }
 
 
@@ -697,6 +702,12 @@ body {
         font-size: 2rem;
         margin-top: 10rem;
     }
+    .crypto{
+      display: grid;
+      width: 25rem;
+      grid-template-columns: 3fr 3fr 3fr;
+      box-shadow: 80px 5px 80px 80px var(--color-btnHover);
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -712,6 +723,15 @@ body {
     .services_card{
         width: 300px;
     }
+
+    .crypto{
+      display: grid;
+      width: 17.5rem;
+      grid-template-columns: 3fr 3fr 3fr;
+      box-shadow: 80px 5px 80px 80px var(--color-btnHover);
+    }
+
+
 }
 
 
